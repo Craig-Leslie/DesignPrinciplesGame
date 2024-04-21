@@ -1,0 +1,12 @@
+# Blender 4.0.2 MTL File: 'chair.blend'
+# www.blender.org
+
+newmtl poly_0.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Users/Craig/Documents/Downloads/15_03_2024-3/poly_2_U8Ux7qJ0.jpg
+map_Ns C:/Users/Craig/Documents/Downloads/15_03_2024-3/poly_3_U8Ux7qJ0.jpg
