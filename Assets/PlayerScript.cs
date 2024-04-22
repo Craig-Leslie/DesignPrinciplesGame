@@ -103,10 +103,9 @@ public class PlayerScript : MonoBehaviour
 
                 tvPart.Stop();
                 tv.Stop();
-                transform.position = new Vector3(-1.5f, 0.119f, -1.694f);
-                transform.rotation = Quaternion.Euler(0f, -90f, 0f);
-                canMove = true;
-                progression += 0.25f;
+                StartCoroutine(GetUpWait1());
+
+                
 
             }
 
@@ -114,11 +113,10 @@ public class PlayerScript : MonoBehaviour
             {
                 anim.SetBool("Sitting2", false);
                 anim.SetBool("Standing", true);
-                transform.position = new Vector3(1f, 0.119f, -1.4f);
-                transform.rotation = Quaternion.Euler(0f, 0f, 0f);
                 pageTurn.Stop();
-                canMove = true;
-                progression += 0.25f;
+
+                StartCoroutine(GetUpWait2());
+                
 
             }
             getUp.enabled = false;
@@ -279,6 +277,23 @@ public class PlayerScript : MonoBehaviour
 
     }
 
+    IEnumerator GetUpWait1()
+    {
+        yield return new WaitForSeconds(3.5f);
+        transform.position = new Vector3(-1.5f, 0.119f, -1.694f);
+        transform.rotation = Quaternion.Euler(0f, -90f, 0f);
+        canMove = true;
+        progression += 0.25f;
+    }
+
+    IEnumerator GetUpWait2()
+    {
+        yield return new WaitForSeconds(2f);
+        transform.position = new Vector3(1f, 0.119f, -1.4f);
+        transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+        canMove = true;
+        progression += 0.25f;
+    }
 
     void forward()
     {
