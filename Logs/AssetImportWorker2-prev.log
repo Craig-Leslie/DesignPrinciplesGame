@@ -1,0 +1,397 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16270 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Craig/Documents/Design Principles Upload/Upload Test
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+63199
+Successfully changed project path to: C:/Users/Craig/Documents/Design Principles Upload/Upload Test
+C:/Users/Craig/Documents/Design Principles Upload/Upload Test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19072] Host "[IP] 192.168.1.150 [Port] 0 [Flags] 2 [Guid] 1784680578 [EditorId] 1784680578 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3U2VHQ5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19072] Host "[IP] 192.168.1.150 [Port] 0 [Flags] 2 [Guid] 1784680578 [EditorId] 1784680578 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3U2VHQ5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 23.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Craig/Documents/Design Principles Upload/Upload Test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6700 XT (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12243 MB
+    Driver:   31.0.23013.1023
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.033763 seconds.
+- Loaded All Assemblies, in  0.459 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.241 seconds
+Domain Reload Profiling: 691ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (108ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (108ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (242ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (192ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.942 seconds
+Refreshing native plugins compatible for Editor in 12.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.169 seconds
+Domain Reload Profiling: 2094ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (626ms)
+		LoadAssemblies (555ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (153ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1169ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1012ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (791ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 11.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (1.2 MB). Loaded Objects now: 6550.
+Memory consumption went from 240.6 MB to 239.4 MB.
+Total: 11.605000 ms (FindLiveObjects: 0.453800 ms CreateObjectMapping: 0.371200 ms MarkObjects: 10.407700 ms  DeleteObjects: 0.371200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 535461.597042 seconds.
+  path: Assets/Models
+  artifactKey: Guid(764627b8442c4034dada193b3043ccd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(764627b8442c4034dada193b3043ccd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a5469993e5aa89b3e0d5febe804194') in 0.001359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062178 seconds.
+  path: Assets/Models/ScanningModel.obj
+  artifactKey: Guid(c78e9ee723ee5644f8d2a20d18655c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ScanningModel.obj using Guid(c78e9ee723ee5644f8d2a20d18655c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72f332788b8893f2209fe1b57f5a58d') in 1.449004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 551
+========================================================================
+Received Import Request.
+  Time since last request: 19.076417 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx
+  artifactKey: Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx using Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b15974ffbf46c82bb30313e89e48b0c') in 0.079304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/Arctangent2.shadergraph
+  artifactKey: Guid(77db792a3b0f5924bb88de5e169a7c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/Arctangent2.shadergraph using Guid(77db792a3b0f5924bb88de5e169a7c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8d5fdb049a91b6ff45d5389cf6191c') in 0.536200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/Fraction.shadergraph
+  artifactKey: Guid(ac15de00f30fc0f4db04abf54ab51829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/Fraction.shadergraph using Guid(ac15de00f30fc0f4db04abf54ab51829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5085d28046111e2282c8589335a791f') in 0.439441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/DegreesToRadians.shadergraph
+  artifactKey: Guid(a8b77e45ef6509a4c9c5a2ce7b279326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/DegreesToRadians.shadergraph using Guid(a8b77e45ef6509a4c9c5a2ce7b279326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3cf43eb080b0f615c85305637302d8') in 0.434450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Input/GatherTexture2D.shadergraph
+  artifactKey: Guid(c06f74321c66b8a42899a1bd7adaa4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Input/GatherTexture2D.shadergraph using Guid(c06f74321c66b8a42899a1bd7adaa4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba1f3c5af4120c096204b41d752ef6d') in 0.457150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Free Tree Pack/Models/Ground.fbx
+  artifactKey: Guid(e0bdbf92eb5fc8a4f8b6b981cb4e1cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Tree Pack/Models/Ground.fbx using Guid(e0bdbf92eb5fc8a4f8b6b981cb4e1cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfdef2f49630e8eeb47043a9d405d89') in 0.028885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Input/CalculateLevelofDetailTexture2D.shadergraph
+  artifactKey: Guid(5038fb70ad3305247ae570e4c3a97a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Input/CalculateLevelofDetailTexture2D.shadergraph using Guid(5038fb70ad3305247ae570e4c3a97a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda8083c128969f229aec704f6e9a459') in 0.431725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/Arccosine.shadergraph
+  artifactKey: Guid(ba2c8b026df44bf4a81a60b2a223ca1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/Arccosine.shadergraph using Guid(ba2c8b026df44bf4a81a60b2a223ca1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f21d62f1116a848ee7d527b307f1a73') in 0.460146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Procedural/Checkerboard.shadergraph
+  artifactKey: Guid(482fc9155da18c74cba12f16adab9782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Procedural/Checkerboard.shadergraph using Guid(482fc9155da18c74cba12f16adab9782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed30a2d4c096f4655c829247adfcfc1') in 0.438860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Input/BitangentVector.shadergraph
+  artifactKey: Guid(781121d7c3b4db7428019d5e5b4e989a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Input/BitangentVector.shadergraph using Guid(781121d7c3b4db7428019d5e5b4e989a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40b1214a09ee3654b07cea40787dbc6') in 0.435511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Artistic/ColorspaceConversion.shadergraph
+  artifactKey: Guid(1cfd850a90331cd4d98fabd64639b79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Artistic/ColorspaceConversion.shadergraph using Guid(1cfd850a90331cd4d98fabd64639b79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f71b9805a517b9f5a0e92bef4155ce') in 0.442208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/Cosine.shadergraph
+  artifactKey: Guid(583e93d06dd1808488812bbdd70511bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/Cosine.shadergraph using Guid(583e93d06dd1808488812bbdd70511bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e56513b6afd0ba85bede2466d0682f0') in 0.425833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Input/Gradient.shadergraph
+  artifactKey: Guid(06457a66db55ff84785fa459375fe6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Input/Gradient.shadergraph using Guid(06457a66db55ff84785fa459375fe6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c566700e9d7e4e50667011ab647015d1') in 0.423103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/DDX.shadergraph
+  artifactKey: Guid(9b009bd314973b24cb3f8b6e7b5ba5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/DDX.shadergraph using Guid(9b009bd314973b24cb3f8b6e7b5ba5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7338d96fc0c0e1866cccf6ab893b08') in 0.443944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Materials/Free_Tree.mat
+  artifactKey: Guid(af65c0942482e46aeb256506726ff0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Materials/Free_Tree.mat using Guid(af65c0942482e46aeb256506726ff0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddffe437eee97a6427f829cca9eaba0') in 0.061180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.041997 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat
+  artifactKey: Guid(6b911390c5825014e8377183a7837d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat using Guid(6b911390c5825014e8377183a7837d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32ca47f280953dfda4b5e74c3733fdb') in 0.556384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/RandomRange.shadergraph
+  artifactKey: Guid(308691904d0893d4d93387af3354cff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/RandomRange.shadergraph using Guid(308691904d0893d4d93387af3354cff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e1bf7bbd992cd234f95ff1da9765bb') in 0.452321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/Length.shadergraph
+  artifactKey: Guid(f9a02511802577449be7229f934a6c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/Length.shadergraph using Guid(f9a02511802577449be7229f934a6c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff1e6244ff790a0a61d3d441c166c07') in 0.463217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/Sign.shadergraph
+  artifactKey: Guid(23f4209d964e84041bfb227f1627839c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/Sign.shadergraph using Guid(23f4209d964e84041bfb227f1627839c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62e73bd69813df5864321a7dd01791f') in 0.438997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/UV/ParallaxMapping.shadergraph
+  artifactKey: Guid(200894d0e17c59947bb4c2000c3cb617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/UV/ParallaxMapping.shadergraph using Guid(200894d0e17c59947bb4c2000c3cb617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae47a274262081d4c5dfc1c1ae10a87') in 0.477913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Input/TangentVector.shadergraph
+  artifactKey: Guid(14482ae69dcfb2a408a9068722ef0233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Input/TangentVector.shadergraph using Guid(14482ae69dcfb2a408a9068722ef0233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88078df6bcdb0c3bfb870e5394343f61') in 0.429474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/RadiansToDegrees.shadergraph
+  artifactKey: Guid(e9ce9e19d154ca446a86c52e8c46e85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Shader Graph/14.0.10/Node Reference/Math/RadiansToDegrees.shadergraph using Guid(e9ce9e19d154ca446a86c52e8c46e85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8003cdf39fdca8255059f8dc82757fd') in 0.457297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 27.821083 seconds.
+  path: Assets/Models/ScanningModel.obj
+  artifactKey: Guid(c78e9ee723ee5644f8d2a20d18655c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ScanningModel.obj using Guid(c78e9ee723ee5644f8d2a20d18655c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0430f63b012ac80969b7c6ff7f68cc') in 1.420983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 557

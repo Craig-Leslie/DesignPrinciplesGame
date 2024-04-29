@@ -23735,7 +23735,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 684, y: 313}
+  m_AnchoredPosition: {x: 684, y: 370}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2140149320
@@ -23760,7 +23760,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Credits:\n\nAnimation - Mixamo\n\nAudio - FreeSound, Bensound, Orange
     Free Sounds\n\nMenu - Brackeys\n\nFlipbooks - Unity\n\nConfetti - \n\rDevsplorer
-    on YT \n\nTree - Broken Vector on Unity Asset Store"
+    on YT \n\nTree - Broken Vector on Unity Asset Store\n\nLook script - Royal Skies
+    YT"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
